@@ -1,0 +1,227 @@
+html, body {
+	padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background-color: white;
+    color: black;
+}
+
+header {
+    background: url("lala.jpg");
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+.wrapper {
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.nav-area { 
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.nav-area li {
+    display: inline-block;
+}
+
+.nav-area li a {
+    color: #0d0d0d;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: monospace;
+    font-size: 25px;
+}
+
+.nav-area li a:hover {
+    background: #c0d6e4;
+    font-weight: bold;
+    color: white;
+    border-radius: 50px;
+}
+
+.welcome-text {
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    margin: 20% 30%;
+    text-align: center;
+}
+
+.welcome-text h1 {
+    margin-top: -40px;
+    text-align: center;
+    color:  #0d0d0d;
+    text-transform: uppercase;
+    font-size: 80px;
+}
+
+.welcome-text p {
+    text-align: center;
+    color:  #0d0d0d;
+    font-size: 25px;
+    letter-spacing: 3px;
+    margin-top: -40px;
+}
+
+.wew {
+	width: 30px;
+	height: 50px;
+	margin-left: -300px;
+	margin-top: -100px;
+}
+
+
+.wiw { 
+	width: 30px;
+	height: 100px;
+	margin-left: -1300px;
+	margin-top: 200px;
+ }
+
+.luh { 
+	width: 100px;
+	height: 200px;
+	margin-left: 500px;
+	margin-top: -450px;
+ }
+
+ .woi{
+ 	width: 100px;
+	height: 200px;
+	margin-left:700px;
+	margin-top: -200px;
+ }
+
+.profile-area, .hobbies-area, .strength-area, .career-area {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: 700px;
+}
+
+
+.profpic img{
+	margin-left: 50px;
+    float: right;
+    height: 500px;
+    margin-bottom: 200px;
+}
+
+
+
+.favorites-area {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+.text-part {
+    width: 65%;
+    height: 80%;
+}
+
+.character-part {
+    width: 65%;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: cursive;
+}
+
+p {
+    font-size: 24px;
+    line-height: 50px;
+    font-family: cursive;
+}
+
+.profile-area, .favorites-area, .hobbies-area, .strength-area, .career-area {
+    background: url("bg.jpg");
+    color: 595959;
+}
+
+.images {
+    margin: 0;
+    padding: 0;
+    height: 20px;
+    width: 50px;
+}
+
+.images .imgBx1 img {
+    margin-left: -150px;
+    margin-bottom: 200px;
+    height: 400px;
+    width: 600px;
+    float: left;
+}
+
+.details1, .details2, .details3, .details4 {
+	font-family: monospace;
+}
+
+.details1 {
+	 margin-left: 500px;
+    margin-top: -15px;
+    font-size: 30px;
+    position: absolute; 
+}
+
+.images .imgBx2 img {
+    margin-left: -150px;
+    float: left;
+    width: 600px;
+    height: 400px;
+    margin-top: -150px;
+}
+
+.details2 {
+	 margin-left: 500px;
+    font-size: 30px;
+    position: absolute; 
+    margin-top: 410px;
+}
+
+.images .imgBx3	 img {
+    margin-left: -150px;
+    float: left;
+    width: 600px;
+    height: 400px;
+    margin-top: 150px;
+}
+.details3 {
+	 margin-left: 500px;
+    font-size: 30px;
+    position: absolute; 
+    margin-top: 930px;
+}
+
+.images .imgBx4	 img {
+    margin-left: -150px;
+    float: left;
+    width: 600px;
+    height: 400px;
+    margin-top: 60px;
+}
+
+.details4 {
+	 margin-left: 500px;
+    font-size: 30px;
+    position: absolute; 
+    margin-top: 1400px;
+}
